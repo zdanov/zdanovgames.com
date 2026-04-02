@@ -1,0 +1,61 @@
+/* Color palette inspired by the “en” image */
+:root {
+  --bg: #0d0d0d;          /* charcoal */
+  --text: #e2dfd9;        /* warm gray */
+  --accent-red: #7a1f2a;  /* deep wine */
+  --accent-green: #1f3d36;/* muted emerald */
+  --accent-gold: #c9a86a; /* brass/gold */
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.2rem;
+  color: var(--accent-gold);
+}
+
+.tagline {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  color: var(--accent-red);
+}
+
+strong {
+  color: var(--accent-gold);
+}
+
+.game {
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--accent-green);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent-red);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-gold);
+}
