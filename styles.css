@@ -60,3 +60,16 @@ a {
 a:hover {
   color: var(--blue-steel);
 }
+
+.release {
+  display: block;
+  margin-top: 4px;
+  color: var(--blue-steel);
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.release em {
+  font-style: normal;
+  color: var(--blue-main);
+}
