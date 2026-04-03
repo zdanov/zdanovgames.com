@@ -1,10 +1,10 @@
 :root {
-  --bg: #0b0b0d;          /* deep charcoal */
-  --text: #d8d8d8;        /* soft gray */
-  --blue-main: #3a4f6b;   /* muted blue */
-  --blue-steel: #4f6a82;  /* steel blue */
-  --violet: #6a5a78;      /* dusty violet */
-  --red-soft: #a34a4a;    /* soft red */
+  --bg: #0b0c10;          /* deep charcoal */
+  --text: #d9d9d9;        /* soft gray */
+  --blue-main: #3b5a78;   /* strong muted blue */
+  --blue-steel: #4f7a9e;  /* steel blue */
+  --blue-dark: #1f2e3a;   /* muted navy */
+  --red-soft: #a34a4a;    /* soft red (minimal use) */
 }
 
 body {
@@ -29,7 +29,7 @@ h1 {
 
 .tagline {
   margin-bottom: 2rem;
-  color: var(--violet);
+  color: var(--blue-main);
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
 }
 
 strong {
-  color: var(--red-soft);
+  color: var(--blue-steel);
 }
 
 .game {
@@ -48,7 +48,7 @@ strong {
 footer {
   margin-top: 3rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--blue-main);
+  border-top: 1px solid var(--blue-dark);
   color: var(--text);
 }
 
@@ -58,5 +58,5 @@ a {
 }
 
 a:hover {
-  color: var(--red-soft);
+  color: var(--blue-steel);
 }
