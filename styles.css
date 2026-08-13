@@ -1,10 +1,16 @@
 :root {
-  --bg: #0b0c10;          /* deep charcoal */
-  --text: #d9d9d9;        /* soft gray */
-  --blue-main: #3b5a78;   /* strong muted blue */
-  --blue-steel: #4f7a9e;  /* steel blue */
-  --blue-dark: #1f2e3a;   /* muted navy */
-  --red-soft: #a34a4a;    /* soft red (minimal use) */
+  --bg: #0b0c10;
+  /* deep charcoal */
+  --text: #d9d9d9;
+  /* soft gray */
+  --blue-main: #3b5a78;
+  /* strong muted blue */
+  --blue-steel: #4f7a9e;
+  /* steel blue */
+  --blue-dark: #1f2e3a;
+  /* muted navy */
+  --red-soft: #a34a4a;
+  /* soft red (minimal use) */
 }
 
 body {
@@ -34,7 +40,15 @@ h1 {
 
 h2 {
   margin-top: 2.5rem;
+  margin-bottom: 1rem;
   color: var(--blue-main);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  color: var(--blue-steel);
 }
 
 strong {
@@ -43,6 +57,51 @@ strong {
 
 .game {
   margin-bottom: 2rem;
+}
+
+.game p {
+  margin: 0.4rem 0;
+}
+
+/* Horizontal Rule */
+hr {
+  border: 0;
+  border-top: 1px solid var(--blue-dark);
+  margin: 2.5rem 0;
+}
+
+/* DevLog Formatting */
+.devlog {
+  margin-top: 1rem;
+}
+
+.log-entry {
+  margin-bottom: 2rem;
+}
+
+.log-entry h3 {
+  font-size: 1.1rem;
+  color: var(--blue-steel);
+  margin-bottom: 0.5rem;
+}
+
+.log-entry ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.log-entry li {
+  margin-bottom: 0.35rem;
+}
+
+/* Inline Code Snippets */
+code {
+  font-family: 'Consolas', 'Monaco', monospace;
+  background: var(--blue-dark);
+  color: var(--text);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
 }
 
 footer {
@@ -59,11 +118,12 @@ a {
 
 a:hover {
   color: var(--blue-steel);
+  text-decoration: underline;
 }
 
 .release {
   display: block;
-  margin-top: 4px;
+  margin-top: 6px;
   color: var(--blue-steel);
   font-size: 0.9rem;
   opacity: 0.9;
@@ -72,4 +132,5 @@ a:hover {
 .release em {
   font-style: normal;
   color: var(--blue-main);
+  font-weight: bold;
 }
